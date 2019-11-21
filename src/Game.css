@@ -1,0 +1,87 @@
+
+.imagen{
+  float: left; 
+  margin: 0px 15px 15px 0px;
+  padding: 20px;
+
+}
+
+.navbar{
+  padding: 20px;
+  background: rgb(104, 245, 245);
+  text-align: center;
+} 
+
+.autor {
+display: inline-block;
+position: relative;
+width: 40px;
+height: 40px;
+overflow: hidden;
+margin-left: 50px;
+border-radius: 50%;
+}
+
+
+.question{
+  
+  display: inline-block;
+  vertical-align: center;
+  font-size: 20px;
+  
+}
+
+.Boton {
+padding: 3px;
+  width: 20%;
+  font-size: 1.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  color: #32bebe;
+  border: 1px solid #32bebe;
+}
+
+.center{
+
+border: 20px solid #bcf7f7;
+padding: 10px;
+margin: 10 px;
+background: #32bebe;
+height: 350px;
+
+}
+
+.actionBarContainer  {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 99;
+}
+
+ .Boton:hover {
+  padding: 3px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #32bebe;
+  color: white;
+  border: 1px solid #32bebe;
+}
+
+.caja{
+  display: flex;
+  justify-content: flex-end;
+  align-items: space-around;
+}
+
+/* .usuario{
+  position: relative;
+} */
